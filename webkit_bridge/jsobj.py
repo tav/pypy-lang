@@ -1,5 +1,5 @@
-# No Copyright (-) 2009-2010 The Ampify Authors. This file is under the
-# Public Domain license that can be found in the root LICENSE file.
+# Public Domain (-) 2009-2011 The Naaga Authors.
+# See the Naaga UNLICENSE file for details.
 
 from pypy.interpreter.baseobjspace import Wrappable, W_Root, ObjSpace
 from pypy.interpreter.gateway import interp2app
@@ -10,6 +10,9 @@ from pypy.rpython.lltypesystem import lltype, rffi
 from pypy.interpreter.argument import Arguments
 from pypy.rpython.memory.support import AddressDict
 
+# ------------------------------------------------------------------------------
+# Javascript Context
+# ------------------------------------------------------------------------------
 
 class JavaScriptContext(object):
 
@@ -103,6 +106,9 @@ class JavaScriptContext(object):
     def globals(self):
         return JSObject(self, JSContextGetGlobalObject(self._ctx))
 
+# ------------------------------------------------------------------------------
+# Javascript Object
+# ------------------------------------------------------------------------------
 
 class JSObject(Wrappable):
 
