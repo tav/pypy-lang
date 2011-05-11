@@ -1,0 +1,22 @@
+Naaga Authors
+=============
+
+This is the official list of the Naaga Authors ("The Authors"), listed in
+alphabetical order:
+
++----------------------------+--------------------+--------------------------+----------------+
+| Name                       | Nick               | Email                    | Location       |
++============================+====================+==========================+================+
+| `Maciej Fijalkowski`_      | fijal              | fijall@gmail.com         | Europe         |
++----------------------------+--------------------+--------------------------+----------------+
+| `Tav`_                     | tav                | tav@espians.com          | U.K.           |
++----------------------------+--------------------+--------------------------+----------------+
+
+.. Please keep the listing in Alphabetical Order, thanks!
+
+.. _Maciej Fijalkowski: http://morepypy.blogspot.com
+.. _Tav: http://tav.espians.com
+
+By adding yourself to this list, you explicitly agree to affirm all of your
+Contributions to Naaga ("The Work") to be covered by the Unlicense found in the
+UNLICENSE file.
